@@ -5,6 +5,7 @@ const app = express();
 const port = 3000;
 const postRoutes = require("./routes/post.route");
 const userRoutes = require("./routes/user.route");
+require('dotenv').config()
 
 // Middleware to parse JSON bodies
 app.use(express.json());
